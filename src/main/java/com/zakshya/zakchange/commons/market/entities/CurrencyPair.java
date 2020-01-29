@@ -1,19 +1,22 @@
-package com.zakshya.zakchange.commons.entities;
+package com.zakshya.zakchange.commons.market.entities;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Data
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class CurrencyPair {
 
     /**
      * Base Currency code
      */
+    @NonNull
     private String base;
     /**
      * Counter Currency code
      */
+    @NonNull
     private String counter;
 
     @Override

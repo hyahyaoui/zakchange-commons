@@ -1,4 +1,4 @@
-package com.zakshya.zakchange.commons.entities;
+package com.zakshya.zakchange.commons.market.entities;
 
 import lombok.Builder;
 import lombok.Data;
